@@ -44,3 +44,22 @@ listAngkaGanjil.removeRange(1,3); //  // Menghapus list mulai index ke-1 sampai 
 ```
 
 ### SET
+```
+// DEKLARASI SET
+var angka = {1,2,3};
+Set<int> angkaGenap = newt Set.from([2,3,4,5,6,7]);
+
+print(angkaGenap) // mencetak angka yang beda saja
+
+// MANIPULASI SET
+angka.remove(3); // menghaous angka yang diinginkan
+angka.add(9); // menambahkan data ke dalam set 
+angka.addAll({101,102,103});
+
+print(angka.elementAt(0)); // menampilkan data pada index tertentu
+
+// union and intersection 
+var union = angka.union(angkaGenap);
+var intersection = angka.intersection(angkaGenap);
+```
+
