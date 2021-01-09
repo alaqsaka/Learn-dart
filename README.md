@@ -63,3 +63,23 @@ var union = angka.union(angkaGenap);
 var intersection = angka.intersection(angkaGenap);
 ```
 
+### MAP
+```
+key-value
+key = apel
+  value = merah
+  var buah = {
+  'apel': 'merah'
+  };
+  
+  print(buah['apel']); 
+  // output: merah
+  
+  // menampilkan seluruh keys 
+  var buahKeys = buah.keys;
+  // menampilkan nilai
+  var buahValues = buah.values;
+  // menambahkan value baru
+  buah['mangga'] = 'ijo';
+  
+```
