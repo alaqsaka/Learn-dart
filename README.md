@@ -83,3 +83,16 @@ key = apel
   buah['mangga'] = 'ijo';
   
 ```
+
+
+## 12 Januari 2021
+1. Mixins 
+-> menggunakan kembali kode kelas dalam banyak hirarki kelas.
+Cara mendefiniskan mixin sama seperti class
+```
+mixin berjalan{
+void jalan(){
+  print("Saya jalan");
+    }
+}
+```
