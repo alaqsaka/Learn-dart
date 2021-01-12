@@ -96,3 +96,5 @@ void jalan(){
     }
 }
 ```
+2. Extension Methods
+-> fitur ini memberikan kemudahan kepada para pengguna karena dapat membuat fungsionalitas tambahan dari library yang sudah ada.
